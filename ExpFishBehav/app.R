@@ -36,7 +36,7 @@ ui <- fluidPage(
                      "Please summarize data by daily detections prior to upload...it reduces the size
                      of the data set and speeds up analysis."),
             hr(), 
-            h5("Currently only able to analyze data containing the following columns: 
+            helpText("Currently only able to analyze data containing the following columns: 
                \"animal ID\", \"date\", \"receiver group\",
                \"longitude\", \"latitude\", \"time spent (secs)\""),
             hr(),
